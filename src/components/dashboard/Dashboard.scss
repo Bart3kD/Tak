@@ -1,0 +1,38 @@
+@import "./../../colors.scss";
+
+.dashboard-container {
+  max-width: 1200px;
+  width: 100%;
+  background: $section;
+  margin: 0 auto;
+
+  .section-settings {
+    padding: 20px;
+
+    .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      gap: 15px;
+
+      h2 {
+        font-size: 25px;
+      }
+
+      button {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin: 10px;
+
+        &:hover {
+          color: white;
+          background: $loginFormButtonHoverColor;
+        }
+      }
+    }
+  }
+}

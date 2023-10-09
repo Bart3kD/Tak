@@ -1,0 +1,11 @@
+@import "./../../colors.scss";
+
+.footer-container {
+  background: $footerBackground;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-radius: 6px 6px 0px 0px;
+}

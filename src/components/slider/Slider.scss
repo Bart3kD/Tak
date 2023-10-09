@@ -1,0 +1,22 @@
+@import "./../../colors.scss";
+
+.slider-container {
+  margin-top: 50px;
+
+  .slide {
+    height: 400px;
+    border-radius: 15px;
+  }
+
+  .slide-1 {
+    background: rgb(255, 75, 75);
+  }
+
+  .slide-2 {
+    background: rgb(100, 100, 255);
+  }
+
+  .slide-3 {
+    background: rgb(255, 255, 104);
+  }
+}
